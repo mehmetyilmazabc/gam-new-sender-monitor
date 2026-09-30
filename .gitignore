@@ -1,0 +1,27 @@
+# Workspace-derived data - NEVER commit
+data/*
+!data/.gitkeep
+
+# Analysis output - NEVER commit
+output/*
+!output/.gitkeep
+
+# GAM / Google credentials
+.env
+*.json
+gam.cfg
+oauth2service.json
+client_secrets.json
+service-account*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Windows / macOS / IDE
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

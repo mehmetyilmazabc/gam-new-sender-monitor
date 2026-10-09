@@ -9,6 +9,7 @@ writes only newly observed sender addresses to disk.
 No message body, subject, attachment, recipient, or message ID is persisted.
 """
 
+
 from __future__ import annotations
 
 import argparse

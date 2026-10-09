@@ -8,6 +8,7 @@ The project intentionally stores **sender email addresses only**. It does not
 persist message bodies, subjects, recipients, attachments, message IDs, or
 other Gmail content.
 
+
 ## What it does
 
 1. Runs a GAM Gmail message query.
